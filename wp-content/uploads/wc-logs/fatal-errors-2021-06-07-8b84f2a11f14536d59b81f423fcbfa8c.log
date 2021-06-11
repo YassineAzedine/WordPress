@@ -1,0 +1,28 @@
+2021-06-07T09:21:26+00:00 CRITICAL Uncaught Error: Call to undefined function blocksy_get_trending_block() in C:\xampp\htdocs\wordpress\wp-content\plugins\blocksy-companion\framework\extensions\trending\customizer.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\blocksy\inc\customizer\init.php(658): {closure}(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php(221): {closure}(Object(Blocksy_WP_Customize_Partial), Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\blocksy-companion\framework\extensions\trending\customizer.php à la ligne 84
+
+2021-06-07T09:21:45+00:00 CRITICAL Uncaught Error: Call to undefined function blocksy_get_trending_block() in C:\xampp\htdocs\wordpress\wp-content\plugins\blocksy-companion\framework\extensions\trending\customizer.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\blocksy\inc\customizer\init.php(658): {closure}(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-partial.php(221): {closure}(Object(Blocksy_WP_Customize_Partial), Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(13): do_action('template_redire...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\blocksy-companion\framework\extensions\trending\customizer.php à la ligne 84
+

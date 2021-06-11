@@ -1,0 +1,51 @@
+2021-06-09T10:31:56+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\google-translate\functions.php:50
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\google-translate\functions.php(50): implode(Array, ' ')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): trp_gt_add_settings(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\partials\machine-translation-settings-page.php(67): do_action('trp_machine_tra...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-machine-translation-tab.php(92): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): TRP_Machine_Translation_Tab->machine_translation_page_content('')
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('admin_page_trp_...')
+#10 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\google-translate\functions.php à la ligne 50
+
+2021-06-09T12:42:23+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php:1358
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php(1358): implode(Array, ' OR ')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(236): TRP_Query->remove_possible_duplicates(Array, 'en_US', 'regular')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(186): TRP_Editor_Api_Regular_Strings->save_translations_of_strings(Object(stdClass))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(290): TRP_Editor_Api_Regular_Strings->save_translations()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_trp_sav...')
+#7 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php à la ligne 1358
+
+2021-06-09T12:47:58+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php:1358
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php(1358): implode(Array, ' OR ')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(236): TRP_Query->remove_possible_duplicates(Array, 'en_US', 'regular')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(186): TRP_Editor_Api_Regular_Strings->save_translations_of_strings(Object(stdClass))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(290): TRP_Editor_Api_Regular_Strings->save_translations()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_trp_sav...')
+#7 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php à la ligne 1358
+
+2021-06-09T12:56:47+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php:1358
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php(1358): implode(Array, ' OR ')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(236): TRP_Query->remove_possible_duplicates(Array, 'en_US', 'regular')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-editor-api-regular-strings.php(186): TRP_Editor_Api_Regular_Strings->save_translations_of_strings(Object(stdClass))
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(290): TRP_Editor_Api_Regular_Strings->save_translations()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_trp_sav...')
+#7 {main}
+  thrown dans C:\xampp\htdocs\wordpress\wp-content\plugins\translatepress-multilingual\includes\class-query.php à la ligne 1358
+
